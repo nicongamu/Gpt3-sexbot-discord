@@ -22,27 +22,6 @@ intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="!", intents=intents)
 # Stable difusion
 api_key = os.environ['STABLE_HORDE_API']
-### Reddit stuff ###
-
-# Reddit API credentials
-client_id = my_secret = os.environ['REDDIT_ID']
-client_secret = os.environ['REDDIT_SECRET']
-user_agent = os.environ['USER_AGENT']
-
-# Function to get a Reddit access token
-def get_reddit_access_token():
-    auth = requests.auth.HTTPBasicAuth(client_id, client_secret)
-    headers = {"User-Agent": user_agent}
-    data = {"grant_type": "client_credentials"}
-    response = requests.post("https://www.reddit.com/api/v1/access_token", auth=auth, data=data, headers=headers)
-    return response.json()["access_token"]
-
-# Function to get a random NSFW gif from Reddit
-def get_random_nsfw_gif(access_token):
-    headers = {"Authorization": f"bearer {access_token}", "User-Agent": user_agent}
-    response = requests.get("https://oauth.reddit.com/r/nsfw_gifs/random", headers=headers)
-    post_data = response.json()[0]["data"]["children"][0]["data"]
-    return post_data["url"]
 
 # Keep track of the channels where the bot is active
 
