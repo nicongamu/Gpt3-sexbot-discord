@@ -7,7 +7,6 @@ import asyncio
 import aiohttp
 import discord
 import requests
-from tiktok_voice.main import tts
 from keep_alive import keep_alive
 from discord.ext import commands
 
