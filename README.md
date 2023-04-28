@@ -43,3 +43,5 @@ For example, to change the bot's username, use:
 !pfp https://new_pfp_link_here/image.png or jpeg
 ```
 For more commmands use `!welp` or `!help`
+
+## Help needed if you wanna help then commit to this repo
