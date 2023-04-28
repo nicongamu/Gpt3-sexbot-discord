@@ -44,4 +44,3 @@ For example, to change the bot's username, use:
 ```
 For more commmands use `!welp` or `!help`
 
-## Help needed if you wanna help then commit to this repo
