@@ -23,7 +23,7 @@ pip install -r requirements.txt
 3. Create a `.env` file with your OpenAI API key and Discord bot token :
 ```
 OPENAI_API_KEY=your_api_key_here
-DISCORD_TOKEN
+DISCORD_TOKEN=your_discord_bot_token
 ```
 4. Run the bot:
 linux :
