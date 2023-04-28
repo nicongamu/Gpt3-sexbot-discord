@@ -1,3 +1,7 @@
+## ⚠️ Warning
+
+GPT has the ability to generate text responses on a wide range of topics. However, due to the nature of the content that it can generate, it may not be appropriate for **minors**.
+
 # Discord GPT-3 Bot
 
 This bot uses OpenAI's GPT-3 to generate responses based on prompts from a JSON file and interacts with users on Discord.
