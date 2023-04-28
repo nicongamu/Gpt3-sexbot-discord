@@ -21,13 +21,10 @@ System_prompt = data["Assistant"] ## check prompts.json for diffrent system prom
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="!", intents=intents)
 # Stable difusion
-api_key = os.environ['STABLE_HORDE_API']
 
 # Keep track of the channels where the bot is active
 
 active_channels = set()
-
-API_KEY = os.environ['HUGGINGFACE_API']
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
@@ -246,7 +243,7 @@ async def troll(ctx):
     await ctx.send("All nicknames have been changed to 'Slaves lol'.")
 
 @bot.command()
-@commands.has_permissions(administrator=False)
+@commands.has_permissions(administrator=True)
 async def addchannel(ctx):
     channel_id = ctx.channel.id
     if channel_id not in active_channels:
@@ -287,36 +284,6 @@ async def storyonusr(ctx, user: discord.User):
         prompt = f"My name is {user.name} and I am"
         response = await generate_response(prompt)
         await ctx.send(response)
-
-@bot.command(name="imagine")
-async def imagine(ctx, prompt: str):
-    sanitized = ""
-    forbidden = ['"', "'", "`", "\\", "$"]
-
-    for char in prompt:
-        if char in forbidden:
-            continue
-        else:
-            sanitized += char
-    # Add ephemeral=True to make it only visible by you
-    await ctx.send(f"{ctx.author.mention} is generating \"{sanitized}\" :art: ...")
-
-    # Generate image
-    print(f"Generating {sanitized}")
-    os.system(f"python AI-Horde/cli_request.py --prompt '{sanitized}' --api_key '{api_key}' -n 4")
-
-    # Loop until image generates
-    while True:
-        if os.path.exists("0_horde_generation.png"):
-            break
-        else:
-            continue
-    
-    for i in range(4):
-        with open(f'{i}_horde_generation.png', 'rb') as f:
-            picture = discord.File(f)
-            await ctx.send(file=picture, content=f"Generated using $prompt: \"{sanitized}\"")
-        os.remove(f"{i}_horde_generation.png")
 
 @bot.event
 async def on_command_error(ctx, error):
