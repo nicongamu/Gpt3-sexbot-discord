@@ -44,7 +44,11 @@ py main.py
 To use the bot, invite it to a Discord server and use commands like `!ping`, `!changeusr`, etc.
 For example, to change the bot's username, use:
 ```
-!pfp https://new_pfp_link_here/image.png or jpeg
+!changeusr NewBotName
+```
+and to change profile picture use :
+```
+!pfp linktonewpfp.com/image.png
 ```
 For more commmands use `!welp` or `!help`
 
