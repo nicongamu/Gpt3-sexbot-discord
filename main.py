@@ -14,7 +14,7 @@ from discord.ext import commands
 with open("prompts.json") as f:
     data = json.load(f)
 
-System_prompt = data["Assistant"] ## check prompts.json for diffrent system prompts
+System_prompt = data["ERPALPHA"] ## check prompts.json for diffrent system prompts
 
 # Set up the Discord bot
 intents = discord.Intents.all()
