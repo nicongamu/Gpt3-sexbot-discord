@@ -2,6 +2,12 @@
 
 GPT has the ability to generate text responses on a wide range of topics. However, due to the nature of the content that it can generate, it may not be appropriate for **minors**.
 
+
+# Preview
+
+![image](https://user-images.githubusercontent.com/91066601/235471433-0bb55515-1f40-4705-a026-67999de6c7eb.png)
+
+
 # Discord GPT-3 Sexbot
 
 This bot uses OpenAI's GPT-3 to generate responses based on prompts from a JSON file and interacts with users on Discord.
@@ -16,7 +22,7 @@ This bot uses OpenAI's GPT-3 to generate responses based on prompts from a JSON 
 
 1. Clone the repository:
 ```
-git clone https://github.com/mishalhossin/Gpt3-chatbot-discord.git
+git clone https://github.com/mishalhossin/Gpt3-sexbot-discord
 ```
 
 2. Install dependencies:
