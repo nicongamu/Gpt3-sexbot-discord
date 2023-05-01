@@ -47,6 +47,8 @@ py main.py
 
 ## Usage
 
+For all commmands use `!welp` or `!help`
+
 To use the bot, invite it to a Discord server and use commands like `!ping`, `!changeusr`, etc.
 For example, to change the bot's username, use:
 ```
@@ -56,5 +58,4 @@ and to change profile picture use :
 ```
 !pfp linktonewpfp.com/image.png
 ```
-For more commmands use `!welp` or `!help`
 
