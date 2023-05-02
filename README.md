@@ -12,6 +12,10 @@ https://discord.com/api/oauth2/authorize?client_id=1102930949022416966&permissio
 
 ![image](https://user-images.githubusercontent.com/91066601/235471433-0bb55515-1f40-4705-a026-67999de6c7eb.png)
 
+# Check your key
+```Python
+python check-key.py
+```
 
 # Discord GPT-3 Sexbot
 
