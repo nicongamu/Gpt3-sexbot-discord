@@ -44,15 +44,15 @@ pip install -r requirements.txt
 OPENAI_API_KEY=your_api_key_here
 DISCORD_TOKEN=your_discord_bot_token
 ```
-4. Run the bot:
-linux :
-```
-python3 main.py
-```
-windows:
-```
-py main.py
-```
+4. Run the bot:<br>
+   linux:
+   ```
+   python3 main.py
+   ```
+   windows:
+   ```
+   py main.py
+   ```
 
 ## Usage
 
