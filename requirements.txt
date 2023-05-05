@@ -5,3 +5,7 @@ pynacl
 openai
 requests
 flask
+discord
+fake-useragent
+curl_cffi
+python-dotenv
