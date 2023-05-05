@@ -20,6 +20,7 @@ python check-key.py
 # Discord GPT-3 Sexbot
 
 This bot uses OpenAI's GPT-3 to generate responses based on prompts from a JSON file and interacts with users on Discord.
+Or you can use a free model using `freebot.py`
 
 ## Features
 
@@ -28,6 +29,13 @@ This bot uses OpenAI's GPT-3 to generate responses based on prompts from a JSON 
 - Commands to change bot's profile picture, username, and more
 
 ## Installation
+
+Before you start you must know there are 2 version of the bot 
+`freebot.py`
+and 
+`paidbot.py`
+
+`paidbot.py` uses openai key and `freebot.py` dosent
 
 1. Clone the repository:
 ```
@@ -39,21 +47,38 @@ git clone https://github.com/mishalhossin/Gpt3-sexbot-discord
 pip install -r requirements.txt
 ```
 
-3. Create a `.env` file with your OpenAI API key and Discord bot token :
+3. Create a `.env` file with your OpenAI API key and Discord bot token 
+For `paidbot.py` :
 ```
 OPENAI_API_KEY=your_api_key_here
 DISCORD_TOKEN=your_discord_bot_token
 ```
-4. Run the bot:<br>
+For `freebot.py` create `.env` file like this 
+```
+DISCORD_TOKEN=your_discord_bot_token
+```
+
+4. Run the bot 
+   For `paidbot.py` :<br>
    linux:
    ```
-   python3 main.py
+   python3 paidbot.py
    ```
    windows:
    ```
-   py main.py
+   py paidbot.py
    ```
-
+   Run the bot 
+   For `freebot.py`
+   linux:
+   ```
+   python3 freebot.py
+   ```
+   windows:
+   ```
+   py freebot.py
+   ```
+   
 ## Usage
 
 For all commmands use `!welp` or `!help`
