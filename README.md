@@ -53,7 +53,7 @@ For `paidbot.py` :
 OPENAI_API_KEY=your_api_key_here
 DISCORD_TOKEN=your_discord_bot_token
 ```
-For `freebot.py` create `.env` file like this 
+For `freebot.py` you only need discord token
 ```
 DISCORD_TOKEN=your_discord_bot_token
 ```
