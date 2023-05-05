@@ -11,7 +11,7 @@ load_dotenv()
 
 # Set up the Discord bot
 intents = discord.Intents.all()
-bot = commands.Bot(command_prefix="$", intents=intents)
+bot = commands.Bot(command_prefix="!", intents=intents)
 
 TOKEN = os.getenv('DISCORD_TOKEN') # Loads Discord bot token from env
 
@@ -145,12 +145,12 @@ async def _bonk(ctx):
 @bot.command()
 async def welp(ctx):
     embed = discord.Embed(title="Bot Commands", color=0x00ff00)
-    embed.add_field(name="$pfp [image_url]", value="Change the bot's profile picture", inline=False)
-    embed.add_field(name="$bonk", value="Clears history of the bot", inline=False)
-    embed.add_field(name="$changeusr [new_username]", value="Change the bot's username", inline=False)
-    embed.add_field(name="$ping", value="Pong", inline=False)
-    embed.add_field(name="$toggleactive", value="Toggle the current channel to the list of active channels", inline=False)   
-    embed.add_field(name="$toggledm", value="Toggle if DM should be active or not", inline=False)   
+    embed.add_field(name="!pfp [image_url]", value="Change the bot's profile picture", inline=False)
+    embed.add_field(name="!bonk", value="Clears history of the bot", inline=False)
+    embed.add_field(name="!changeusr [new_username]", value="Change the bot's username", inline=False)
+    embed.add_field(name="!ping", value="Pong", inline=False)
+    embed.add_field(name="!toggleactive", value="Toggle the current channel to the list of active channels", inline=False)   
+    embed.add_field(name="!toggledm", value="Toggle if DM should be active or not", inline=False)   
     embed.set_footer(text="Created by Mishal#1916")
 
     await ctx.send(embed=embed)
