@@ -60,25 +60,25 @@ DISCORD_TOKEN=your_discord_bot_token
 
 4. Run the bot 
 For `paidbot.py` :
-   linux:
-   ```
-   python3 paidbot.py
-   ```
-   windows:
-   ```
-   py paidbot.py
-   ```
+linux:
+```
+python3 paidbot.py
+```
+windows:
+```
+py paidbot.py
+```
 
 Run the bot 
 For `freebot.py`:
-   linux:
-   ```
-   python3 freebot.py
-   ```
-   windows:
-   ```
-   py freebot.py
-   ```
+linux:
+```
+python3 freebot.py
+```
+windows:
+```
+py freebot.py
+```
    
 ## Usage
 
