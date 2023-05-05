@@ -3,9 +3,9 @@
 GPT has the ability to generate text responses on a wide range of topics. However, due to the nature of the content that it can generate, it may not be appropriate for **minors**.
 
 
-## Dont wanna pay for a OpenAi key and use the paid version ? Thats alright use this this invite
+## Dont wanna pay for a OpenAi key ? Thats alright use this this invite
 
-https://discord.com/api/oauth2/authorize?client_id=1102930949022416966&permissions=8&scope=bot
+[REDACTED] as there is a free version now
 
 
 # Preview
