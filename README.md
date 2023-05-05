@@ -59,7 +59,7 @@ DISCORD_TOKEN=your_discord_bot_token
 ```
 
 4. Run the bot 
-For `paidbot.py` :<br>
+For `paidbot.py` :
    linux:
    ```
    python3 paidbot.py
@@ -70,7 +70,7 @@ For `paidbot.py` :<br>
    ```
 
 Run the bot 
-For `freebot.py`:<br>
+For `freebot.py`:
    linux:
    ```
    python3 freebot.py
