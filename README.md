@@ -13,7 +13,8 @@ GPT has the ability to generate text responses on a wide range of topics. Howeve
 ![image](https://user-images.githubusercontent.com/91066601/235471433-0bb55515-1f40-4705-a026-67999de6c7eb.png)
 ## Freebot
 ![image](https://user-images.githubusercontent.com/91066601/236377266-38b26ffb-6990-4961-b988-5e3afcde7fef.png)
-
+## Freebot + Image detect
+![image](https://user-images.githubusercontent.com/91066601/236619638-0c93154f-807c-4a96-9246-7664a744a265.png)
 # Discord GPT-3 Sexbot
 
 This bot uses OpenAI's GPT-3 to generate responses based on prompts from a JSON file and interacts with users on Discord.
