@@ -43,13 +43,17 @@ git clone https://github.com/mishalhossin/Gpt3-sexbot-discord
 pip install -r requirements.txt
 ```
 
-3. Create a `.env` file with your OpenAI API key and Discord bot token 
+3. Create a `.env` file with your OpenAI API key and Discord bot token (THE BOT NEEDS TO HAVE ALL THE INTENTS)
 For `paidbot.py` :
+![image](https://user-images.githubusercontent.com/91066601/236687244-ca3abf32-7edc-468f-af27-c9e0b824cc88.png)
+
 ```
 OPENAI_API_KEY=your_api_key_here
 DISCORD_TOKEN=your_discord_bot_token
 ```
 For `freebot.py` you needs discord token (THE BOT NEEDS TO HAVE ALL THE INTENTS) and hugging face access token
+![image](https://user-images.githubusercontent.com/91066601/236687237-a8ffae52-4220-47a8-911c-2479726261d0.png)
+
 ```
 HUGGING_FACE_API=your_hf_access_token
 DISCORD_TOKEN=your_discord_bot_token
