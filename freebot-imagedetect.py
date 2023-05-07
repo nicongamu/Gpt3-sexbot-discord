@@ -34,7 +34,7 @@ def bonk():
     message_history.clear()
 api_key = os.environ['IMAGE_API_KEY']
 
-API_URL = "https://api-inference.huggingface.co/models/nlpconnect/vit-gpt2-image-captioning"
+API_URL = "https://api-inference.huggingface.co/models/Salesforce/blip-image-captioning-base"
 headers = {"Authorization": f"Bearer {api_key}"} ##GET YOUR FUCKING HUGGINGFACE KEY AND SET IT IN ENV https://huggingface.co/settings/tokens ##
 
 async def query(filename):
