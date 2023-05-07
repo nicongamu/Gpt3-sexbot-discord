@@ -11,8 +11,6 @@ GPT has the ability to generate text responses on a wide range of topics. Howeve
 # Preview
 ## Paidbot
 ![image](https://user-images.githubusercontent.com/91066601/235471433-0bb55515-1f40-4705-a026-67999de6c7eb.png)
-## Freebot
-![image](https://user-images.githubusercontent.com/91066601/236377266-38b26ffb-6990-4961-b988-5e3afcde7fef.png)
 ## Freebot + Image detect
 ![image](https://user-images.githubusercontent.com/91066601/236619638-0c93154f-807c-4a96-9246-7664a744a265.png)
 # Discord GPT-3 Sexbot
@@ -51,31 +49,21 @@ For `paidbot.py` :
 OPENAI_API_KEY=your_api_key_here
 DISCORD_TOKEN=your_discord_bot_token
 ```
-For `freebot.py` you only need discord token
+For `freebot.py` you only need discord token and hugging face access token
 ```
+HUGGING_FACE_API=hf_access_token
 DISCORD_TOKEN=your_discord_bot_token
 ```
 
 4. Run the bot 
 For `paidbot.py` :
-linux:
 ```
 python3 paidbot.py
 ```
-windows:
-```
-py paidbot.py
-```
-
 Run the bot 
 For `freebot.py`:
-linux:
 ```
 python3 freebot.py
-```
-windows:
-```
-py freebot.py
 ```
    
 ## Usage
@@ -91,4 +79,3 @@ and to change profile picture use :
 ```
 !pfp linktonewpfp.com/image.png
 ```
-
