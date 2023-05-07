@@ -49,9 +49,9 @@ For `paidbot.py` :
 OPENAI_API_KEY=your_api_key_here
 DISCORD_TOKEN=your_discord_bot_token
 ```
-For `freebot.py` you only need discord token and hugging face access token
+For `freebot.py` you needs discord token and hugging face access token
 ```
-HUGGING_FACE_API=hf_access_token
+HUGGING_FACE_API=your_hf_access_token
 DISCORD_TOKEN=your_discord_bot_token
 ```
 
