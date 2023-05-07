@@ -28,8 +28,7 @@ Or you can use a free model using `freebot.py`
 
 # Before you start look at this doc on how to get discord bot token
 
-[The doc](https://github.com/mishalhossin/Discord-Chatbot-Gpt4Free/blob/main/discord_token.md)  
-⚠️ Has images for the people who cant read lol
+## [Click here to know how discord token](https://github.com/mishalhossin/Discord-Chatbot-Gpt4Free/blob/main/discord_token.md)  ⚠️ Has images for the people who cant read lol 😂😂
 
 1. Clone the repository:
 ```
