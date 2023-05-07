@@ -9,9 +9,9 @@ GPT has the ability to generate text responses on a wide range of topics. Howeve
 
 
 # Preview
-## Paidbot
+## Paidbot - openai
 ![image](https://user-images.githubusercontent.com/91066601/235471433-0bb55515-1f40-4705-a026-67999de6c7eb.png)
-## Freebot + Image detect
+## Freebot + Image detect - Theb
 ![image](https://user-images.githubusercontent.com/91066601/236673540-e23e9ee1-643e-4b63-8b8a-3dff3b106fd4.png)
 # Discord GPT-3 Sexbot
 
