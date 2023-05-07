@@ -26,12 +26,10 @@ Or you can use a free model using `freebot.py`
 
 ## Installation
 
-Before you start you must know there are 2 version of the bot 
-`freebot.py`
-and 
-`paidbot.py`
+# Before you start look at this doc on how to get discord bot token
 
-`paidbot.py` uses openai key and `freebot.py` dosent
+[The doc](https://github.com/mishalhossin/Discord-Chatbot-Gpt4Free/blob/main/discord_token.md)  
+⚠️ Has images for the people who cant read lol
 
 1. Clone the repository:
 ```
@@ -45,14 +43,12 @@ pip install -r requirements.txt
 
 3. Create a `.env` file with your OpenAI API key and Discord bot token (THE BOT NEEDS TO HAVE ALL THE INTENTS)
 For `paidbot.py` :
-![image](https://user-images.githubusercontent.com/91066601/236687244-ca3abf32-7edc-468f-af27-c9e0b824cc88.png)
 
 ```
 OPENAI_API_KEY=your_api_key_here
 DISCORD_TOKEN=your_discord_bot_token
 ```
 For `freebot.py` you needs discord token (THE BOT NEEDS TO HAVE ALL THE INTENTS) and hugging face access token
-![image](https://user-images.githubusercontent.com/91066601/236687237-a8ffae52-4220-47a8-911c-2479726261d0.png)
 
 ```
 HUGGING_FACE_API=your_hf_access_token
