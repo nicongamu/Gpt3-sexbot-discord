@@ -64,7 +64,7 @@ API_URLS = [
 headers = {"Authorization": f"Bearer {api_key}"}
 
 async def fetch_response(client, api_url, data):
-    response = await client.post(api_url, headers=headers, data=data, timeout=30)
+    response = await client.post(api_url, headers=headers, data=data, timeout=20)
     
     if response.status_code != 200:
         raise Exception(f"API request failed with status code {response.status_code}: {response.text}")
