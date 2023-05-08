@@ -102,19 +102,16 @@ MAX_HISTORY = 5
 
 @bot.event
 async def on_message(message):
-    await bot.process_commands(message)
     if message.author.bot:
-        author_id = str(bot.user.id)
-    else:
-        author_id = str(message.author.id)
-
+      return
+    author_id = str(message.author.id)
     if author_id not in message_history:
         message_history[author_id] = []
 
     message_history[author_id].append(message.content)
     message_history[author_id] = message_history[author_id][-MAX_HISTORY:]
 
-    if message.channel.id in active_channels and not message.author.bot:
+    if message.channel.id in active_channels:
         has_image = False
         image_caption = ""
         if message.attachments:
