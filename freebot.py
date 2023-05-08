@@ -25,7 +25,7 @@ async def on_ready():
   await bot.change_presence(activity=discord.Game(name="Coded by Mishal#1916"))
   print(f"{bot.user.name} has connected to Discord!")
 
-def generate_response(prompt):
+async def generate_response(prompt):
   response = theb.Completion.create(prompt)
   if not response:
     response = "I couldn't generate a response. Please try again."
@@ -133,7 +133,7 @@ async def on_message(message):
         user_prompt = "\n".join(message_history[author_id])
         prompt = f"{user_prompt}\n{bot_prompt}{message.author.name}: {message.content}\n{image_caption}\n{bot.user.name}:"
         async with message.channel.typing():
-            response = generate_response(prompt)     
+            response = await generate_response(prompt)     
         chunks = split_response(response)  
         for chunk in chunks:
             await message.reply(chunk)
@@ -217,7 +217,7 @@ async def welp(ctx):
                   inline=False)
   embed.add_field(name="!ping", value="Pong", inline=False)
   embed.add_field(
-    name="$toggleactive",
+    name="!toggleactive",
     value="Toggle the current channel to the list of active channels",
     inline=False)
   embed.set_footer(text="Created by Mishal#1916")
