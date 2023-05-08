@@ -206,16 +206,16 @@ async def _bonk(ctx):
 @bot.command()
 async def welp(ctx):
   embed = discord.Embed(title="Bot Commands", color=0x00ff00)
-  embed.add_field(name="$pfp [image_url]",
+  embed.add_field(name="!pfp [image_url]",
                   value="Change the bot's profile picture",
                   inline=False)
-  embed.add_field(name="$bonk",
+  embed.add_field(name="!bonk",
                   value="Clears history of the bot",
                   inline=False)
-  embed.add_field(name="$changeusr [new_username]",
+  embed.add_field(name="!changeusr [new_username]",
                   value="Change the bot's username",
                   inline=False)
-  embed.add_field(name="$ping", value="Pong", inline=False)
+  embed.add_field(name="!ping", value="Pong", inline=False)
   embed.add_field(
     name="$toggleactive",
     value="Toggle the current channel to the list of active channels",
