@@ -13,7 +13,7 @@ load_dotenv()
 
 # Set up the Discord bot
 intents = discord.Intents.all()
-bot = commands.Bot(command_prefix="$", intents=intents, heartbeat_timeout=300)
+bot = commands.Bot(command_prefix="!", intents=intents, heartbeat_timeout=300)
 
 TOKEN = os.getenv('DISCORD_TOKEN')  # Loads Discord bot token 
 
