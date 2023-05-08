@@ -26,21 +26,33 @@ Or you can use a free model using `freebot.py`
 
 ## Installation
 
-# Before you start look at this doc on how to get discord bot token
+1. Get discord token
+##### Select [application](https://discord.com/developers/applications)
+![image](https://user-images.githubusercontent.com/91066601/235554871-a5f98345-4197-4b55-91d7-1aef0d0680f0.png)
 
-## [Click here to know how discord token](https://github.com/mishalhossin/Discord-Chatbot-Gpt4Free/blob/main/discord_token.md)  ⚠️ Has images for the people who cant read lol 😂😂
+##### Enable intents
+![image](https://user-images.githubusercontent.com/91066601/235555012-e8427bfe-cffc-4761-bbc0-d1467ca1ff4d.png)
 
-1. Clone the repository:
+##### Get the token !!! by clicking copy
+![image](https://user-images.githubusercontent.com/91066601/235555065-6b51844d-dfbd-4b11-a14b-f65dd6de20d9.png)
+
+2. Get Hugging face token from [here](https://huggingface.co/settings/tokens) (Skip this if you are using paid bot)
+dosent matter which one you use
+![image](https://user-images.githubusercontent.com/91066601/236817328-9ca5f240-d500-4292-8f2b-7b8e97363c6d.png)
+3. Get OpenAI API key from [here](https://platform.openai.com/account/api-keys)(Skip this if you are using free bot)
+![image](https://user-images.githubusercontent.com/91066601/236817881-e787b446-e59a-4994-b4b6-600c4c9e3897.png)
+
+4. Clone the repository:
 ```
 git clone https://github.com/mishalhossin/Gpt3-sexbot-discord
 ```
 
-2. Install dependencies:
+5. Install dependencies:
 ```
 pip install -r requirements.txt
 ```
 
-3. Create a `.env` file with your OpenAI API key and Discord bot token (THE BOT NEEDS TO HAVE ALL THE INTENTS)
+6. Create a `.env` file with your OpenAI API key and Discord bot token (THE BOT NEEDS TO HAVE ALL THE INTENTS)
 For `paidbot.py` :
 
 ```
@@ -54,7 +66,7 @@ HUGGING_FACE_API=your_hf_access_token
 DISCORD_TOKEN=your_discord_bot_token
 ```
 
-4. Run the bot 
+7. Run the bot
 For `paidbot.py` :
 ```
 python3 paidbot.py
